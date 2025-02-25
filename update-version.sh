@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Ensure the script is run with arguments
+# Ensure the script contains arguments
 if [[ $# -lt 2 ]]; then
 	echo "Usage: $0 <library_name> <new_version>"
 	exit 1
